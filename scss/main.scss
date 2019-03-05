@@ -1,0 +1,12 @@
+$primary-color: #444;
+
+body{
+    background: $primary-color;
+    color: #ffffff;
+}
+
+#title-name{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}

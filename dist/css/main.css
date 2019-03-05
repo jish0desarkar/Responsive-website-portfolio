@@ -1,0 +1,8 @@
+body {
+  background: #444;
+  color: #ffffff; }
+
+#title-name {
+  display: inline-block;
+  text-align: center;
+  justify-content: center; }

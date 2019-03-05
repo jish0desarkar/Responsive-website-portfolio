@@ -1,0 +1,14 @@
+{
+  "name": "portfolio-responsive",
+  "version": "1.0.0",
+  "description": "This is my personal website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"  },
+  "repository": {
+    "type": "git",
+    "url": "Portfolio-responsive"
+  },
+  "author": "Jishnu De Sarkar",
+  "license": "ISC"
+}
