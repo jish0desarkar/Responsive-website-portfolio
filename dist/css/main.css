@@ -141,3 +141,26 @@ i {
     transition: all 0.6s ease-out; }
   i#home {
     overflow: hidden; }
+
+@media screen and (max-width: 768px) {
+  main {
+    align-items: center;
+    text-align: center; }
+  i {
+    padding: 0; }
+  .icons {
+    align-content: center;
+    align-items: center;
+    padding: -10vw; }
+  ul.menu-nav, div.menu-brandning {
+    float: none;
+    width: 100%;
+    min-height: 0; }
+    ul.menu-nav.show, div.menu-brandning.show {
+      transform: translate3d(0, 0, 0); }
+  .menu-nav {
+    height: 75vh;
+    transform: translate3d(-100%, 0, 0); }
+  .menu-brandning {
+    height: 25vh;
+    transform: translate3d(100%, 0, 0); } }
