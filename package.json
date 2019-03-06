@@ -1,14 +1,37 @@
 {
   "name": "portfolio-responsive",
   "version": "1.0.0",
-  "description": "This is my personal website",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"  },
-  "repository": {
-    "type": "git",
-    "url": "Portfolio-responsive"
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "extend-shallow": "^3.0.2",
+    "fsevents": "^1.2.7",
+    "get-value": "^2.0.6",
+    "graceful-fs": "^4.1.15",
+    "has-value": "^1.0.0",
+    "has-values": "^1.0.0",
+    "inherits": "^2.0.3",
+    "is-accessor-descriptor": "^0.1.6",
+    "is-binary-path": "^1.0.1",
+    "is-buffer": "^1.1.6",
+    "is-data-descriptor": "^0.1.4",
+    "is-descriptor": "^0.1.6",
+    "is-extendable": "^0.1.1",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.0",
+    "is-number": "^3.0.0",
+    "is-plain-object": "^2.0.4",
+    "is-windows": "^1.0.2",
+    "isarray": "^1.0.0",
+    "isobject": "^3.0.1",
+    "kind-of": "^6.0.2",
+    "sass": "^1.17.2"
   },
-  "author": "Jishnu De Sarkar",
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "",
   "license": "ISC"
 }
